@@ -477,7 +477,7 @@ class Box(object):
         new_contents = self.contents + other_box.contents
 
         return Box(new_contents, new_volume)
-        
+
 
 
 
