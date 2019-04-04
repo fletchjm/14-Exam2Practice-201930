@@ -221,6 +221,16 @@ def practice_problem2b(sequence):
     #    TIME ESTIMATE:   10 minutes.
     ###########################################################################
 
+    c = ''
+    for k in range(len(sequence)):
+        a = sequence[k]
+        if a == '':
+            None
+        else:
+            b = a[0]
+            c = c + b
+    return c
+
 
 ###############################################################################
 # Our tests use the following to print error messages in red.
