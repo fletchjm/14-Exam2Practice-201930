@@ -782,7 +782,7 @@ def practice_problem3e(sequence):
     total = 0
     for k in range(0, len(sequence), 2):
         x = sequence[k]
-        
+
         total = total + x
     return total
 
